@@ -1,7 +1,7 @@
 const Base = require('./base/base')
 
-exports = class Car extends Base {
-    constructor({ id, name, available, releaseYear, gasAvailable }) {
+module.exports = class Car extends Base {
+    constructor({ id, name, releaseYear, available, gasAvailable }) {
         super({ id, name })
 
         this.releaseYear = releaseYear

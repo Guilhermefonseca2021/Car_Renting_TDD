@@ -1,5 +1,11 @@
 # Story: Renting a car
 
+- [x] logic coding
+- [] objects manipulation
+  - [] manager folding
+  - [] testing cases
+- [] formating data.
+
 ## Use case01
 As a system user
 In order to get an available car in specific category

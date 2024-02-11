@@ -1,6 +1,6 @@
 const Base = require('./base/base')
 
-exports = class CarCategory extends Base {
+module.exports = class CarCategory extends Base {
     constructor({ id, name, carIds, price }) {
         super({ id, name })
 
